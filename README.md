@@ -9,6 +9,7 @@ This is a Weather App created in React.js with real-time data fetching. The proj
 - Git
 - Node.js
 - NPM or Yarn
+- Vite
 
 ### Installation
 
