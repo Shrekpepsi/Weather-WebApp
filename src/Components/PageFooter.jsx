@@ -5,12 +5,12 @@ const PageFooter = () => {
     <footer className="flex justify-center items-center">
       Designed and Developed by
       <a
-        href="https://github.com/adedolapoadegboye"
+        href="https://github.com/Shrekpepsi/Weather-WebApp"
         rel="noreferrer"
         target="_blank"
         className="font-serif font-bold text-sm md:text-xl text-green-200 hover:text-cyan-500"
       >
-      <span>Ade</span>
+      <span>fahad</span>
       </a>
     </footer>
   );
