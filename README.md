@@ -36,8 +36,11 @@ yarn dev
 The app will be running on http://localhost:3000 or another port if specified.
 
 # Built With
-React.js - A JavaScript library for building user interfaces
-Vite - Frontend Build Tool
+<ul>
+  <li><a href="https://reactjs.org/" target="_blank">React.js</a> - A JavaScript library for building user interfaces</li>
+  <li><a href="https://vitejs.dev/" target="_blank">Vite</a> - Frontend Build Tool</li>
+</ul>
+
 
 # Author
 Fahad Yaseen
