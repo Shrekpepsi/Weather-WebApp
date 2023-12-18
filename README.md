@@ -11,10 +11,9 @@ This is a Weather App created in React.js with real-time data fetching. The proj
 - NPM or Yarn
 
 ### Installation
-
 1. Clone the repository:
-   
-   git clone https://github.com/Shrekpepsi/Weather-WebApp.git
+
+       git clone https://github.com/Shrekpepsi/Weather-WebApp.git
    
 2.Navigate to the project directory:
 
