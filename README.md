@@ -16,22 +16,27 @@ This is a Weather App created in React.js with real-time data fetching. The proj
    ```bash
    git clone https://github.com/Shrekpepsi/Weather-WebApp.git
    
-Navigate to the project directory:
+2.Navigate to the project directory:
 
-cd Weather-App
+    cd Weather-App
 
-Install dependencies:
-npm install
+3.Install dependencies:
+
+    npm install
+    
 or if you're using Yarn:
-yarn install
-
+    
+    yarn install
+    
 # Running the App
 
 Start the development server:
 
-npm run dev
-or with Yarn:
-yarn dev
+    npm run dev
+
+ or with Yarn:
+
+    yarn dev
 
 The app will be running on http://localhost:3000 or another port if specified.
 
@@ -42,5 +47,6 @@ The app will be running on http://localhost:3000 or another port if specified.
 </ul>
 
 
-# Author
-Fahad Yaseen
+## Author
+
+# Fahad Yaseen
