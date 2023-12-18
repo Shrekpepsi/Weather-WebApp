@@ -1,121 +1,81 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-.App {
-  text-align: center;
+:root{
+  --color:rgba(0,0,0,0.2);
+
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.child-container{
+    height: 600px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: var(--color);
+   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.input-field{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    margin: 20px;
+    
 }
-
-.App-link {
-  color: #61dafb;
+.input-field input{
+    border: transparent;
+    outline: none;
+    border-radius: 9px;
+    padding: 6px;
+    width: 205px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.first-temp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-
-.ReactIcons {
-  font-size: 20px;
+.temp-icon{
+    width: 90px;
+    height: 90px;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .ReactIcons {
-    font-size: 30px;
-  }
+.temp-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .ReactIcons {
-    font-size: 40px;
-  }
+.second-temp{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 77px;
+    row-gap: 28px;
+    margin-top: 20px;
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .ReactIcons {
-    font-size: 60px;
-  }
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 5px;
+  
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .ReactIcons {
-    font-size: 80px;
-  }
+small{
+    font-size: 17px;
+    font-weight: 700;
 }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .ReactIcons {
-    font-size: 100px;
-  }
+.card{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
 }
-
-.ReactIconsSmall {
-  font-size: 20px;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .ReactIconsSmall {
-    font-size: 15px;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .ReactIconsSmall {
-    font-size: 15px;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .ReactIconsSmall {
-    font-size: 15px;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .ReactIconsSmall {
-    font-size: 15px;
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .ReactIconsSmall {
-    font-size: 20px;
-  }
+footer{
+    text-align: center;
 }
